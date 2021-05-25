@@ -81,19 +81,19 @@ p a {
     margin-right: auto;
 }
 
-#posters a {
+#posters figure {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: #222;
     width: 240px;
 }
 
-#posters a img {
-    width: 100%;
+#posters figure a {
+    color: #222;
+    text-decoration: none;
 }
 
-#posters a figcaption {
+#posters figure a figcaption {
     margin-top: 5%;
     font-size: 1.4rem;
     line-height: 1.6rem;
